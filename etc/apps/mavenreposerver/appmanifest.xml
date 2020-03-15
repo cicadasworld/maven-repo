@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<application>
+    <app-params>
+        <param name="version" value="V1.2.0" />
+        <param name="name" value="mavenreposerver" />
+        <param name="displayName" value="Maven MirrorRepo Server" />
+        <param name="description" value="Maven MirrorRepo Server" />
+        <param name="logo" value="Maven MirrorRepo Server, GTTech Company Ltd." />
+        <param name="mainResBundleId" value="mavenreposerver" />
+    </app-params>
+</application>

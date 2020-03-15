@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<procList>
+    <proc name="sleep" enabled="false">
+        <param name="description" value="延迟一段时间后再启动其它进程" />
+        <param name="max_tries" value="1" />
+        <param name="instances" value="1" />
+        <param name="grace_stop" value="0" />
+        <param name="wait_seconds" value="-1" />
+
+        <param name="executable" value="sleep" />
+        <param name="args" value="5" />
+    </proc>
+</procList>

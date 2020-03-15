@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="gb2312"?>
+
+<!-- THIS FILE WAS GENERATED AT 2020/02/12 11:20:24 AUTOMATICALLY. -->
+
+<application>
+    <app-params>
+        <param name="version" value="V1.2.0" />
+        <param name="name" value="app_name" />
+        <param name="displayName" value="app_name" />
+        <param name="description" value="app_name的描述。" />
+        <param name="logo" value="app_name, GT Group" />
+    </app-params>
+</application>
