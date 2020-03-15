@@ -17,6 +17,24 @@ port="8080"
 <Context antiJARLocking="true" docBase="${SERVER_HOME}/RepoData/maven" path="/maven"/>
 ```
 
+#### 配置浏览器中以文件目录的形式展示
+- ${TOMCAT_HOME}/conf/web.xml
+```
+<servlet>
+        <servlet-name>default</servlet-name>
+        <servlet-class>org.apache.catalina.servlets.DefaultServlet</servlet-class>
+        <init-param>
+            <param-name>debug</param-name>
+            <param-value>0</param-value>
+        </init-param>
+        <init-param>
+            <param-name>listings</param-name>
+            <param-value>true</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+```
+
 ##在线下载Maven模块的方法
 
 ###获取整个管理单位树
