@@ -11,7 +11,7 @@ port="8080"
 ```
 
 #### 配置虚拟目录
-- ${TOMCAT_HOME}/conf/Catalina/localhost路径下
+- ${TOMCAT_HOME}/conf/Catalina/localhost路径下新建maven.xml文件
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <Context antiJARLocking="true" docBase="${SERVER_HOME}/RepoData/maven" path="/maven"/>
@@ -35,9 +35,8 @@ port="8080"
     </servlet>
 ```
 
-##在线下载Maven模块的方法
+##在线下载Maven依赖库的方法
 
-###获取整个管理单位树
 ```
 maven clean install -Dmaven.repo.local=<some_foler>
 ```
